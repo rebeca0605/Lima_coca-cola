@@ -8,6 +8,7 @@ O site foi desenvolvido utilizando boas praticas, como por exemplo tags semantic
 * HTML
 * CSS
 * Media Queries
+* MARKDOWN
 
 ## Autor
-[Luan Cristian](<https://github.com/LCristiank>)
+[Rebeca Gomes](<https://github.com/rebeca0605>)
