@@ -1,32 +1,24 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     height: 100vh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(#c02323, #9d1f1f 40%, #9d1f1f 40%, #CF2425);
-}
-
-header, footer{
-    height: 100px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    background: linear-gradient(#40bc1d, #3aae1a 40%, #37a219  40%, #2f8d16);
 }
 
 header{
     height: 100px;
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
     color: #FFFFFF;
-    padding-left: 75px;
+    padding: 0 20px;
 }
 
 header span {
